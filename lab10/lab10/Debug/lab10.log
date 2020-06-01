@@ -1,0 +1,27 @@
+﻿Build started 01.06.2020 18:16:00.
+     1>Project "c:\Users\bogdan\documents\visual studio 2013\Projects\lab10\lab10\lab10.vcxproj" on node 2 (Build target(s)).
+     1>_MASM:
+         Assembling longop.asm...
+         cmd.exe /C "C:\Users\bogdan\AppData\Local\Temp\tmp15438c114348403a81af57127ad9b918.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\longop.obj" /W3 /errorReport:prompt  /Talongop.asm
+       _MASM:
+         Assembling module.asm...
+         cmd.exe /C "C:\Users\bogdan\AppData\Local\Temp\tmpb8d80c84c8f44bb9a301af024f6e8563.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\module.obj" /W3 /errorReport:prompt  /Tamodule.asm
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\lab10.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt lab10.cpp
+         lab10.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Debug\lab10.res" lab10.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\bogdan\documents\visual studio 2013\Projects\lab10\Debug\lab10.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\bogdan\documents\visual studio 2013\Projects\lab10\Debug\lab10.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\bogdan\documents\visual studio 2013\Projects\lab10\Debug\lab10.lib" /MACHINE:X86 Debug\lab10.res
+         Debug\lab10.obj
+         Debug\stdafx.obj
+         Debug\longop.obj
+         Debug\module.obj
+         lab10.vcxproj -> c:\users\bogdan\documents\visual studio 2013\Projects\lab10\Debug\lab10.exe
+     1>Done Building Project "c:\Users\bogdan\documents\visual studio 2013\Projects\lab10\lab10\lab10.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.81
