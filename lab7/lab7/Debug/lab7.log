@@ -1,0 +1,16 @@
+﻿Build started 01.06.2020 16:53:34.
+     1>Project "c:\Users\bogdan\documents\visual studio 2013\Projects\lab7\lab7\lab7.vcxproj" on node 2 (Build target(s)).
+     1>_MASM:
+         Assembling main7.asm...
+         cmd.exe /C "C:\Users\bogdan\AppData\Local\Temp\tmpecca9807818f4640a86f5554adbaf4ee.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\main7.obj" /W3 /errorReport:prompt  /Tamain7.asm
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\bogdan\documents\visual studio 2013\Projects\lab7\Debug\lab7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\bogdan\documents\visual studio 2013\Projects\lab7\Debug\lab7.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\bogdan\documents\visual studio 2013\Projects\lab7\Debug\lab7.lib" /MACHINE:X86 Debug\longop.obj
+         Debug\main7.obj
+         Debug\module.obj
+         lab7.vcxproj -> c:\users\bogdan\documents\visual studio 2013\Projects\lab7\Debug\lab7.exe
+     1>Done Building Project "c:\Users\bogdan\documents\visual studio 2013\Projects\lab7\lab7\lab7.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.71
